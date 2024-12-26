@@ -1,8 +1,18 @@
 import React from 'react'
 
 const Nav = () => {
+  const menulist=[
+    'HOME',
+    'ABOUT',
+    'SERVICE',
+    'CONTACT'
+  ]
   return (
-    <nav>Nav</nav>
+    <nav>
+      {menulist.map((item,index)=>
+      <li key={index}>{item}</li>
+      )}
+    </nav>
   )
 }
 
