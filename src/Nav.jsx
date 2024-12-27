@@ -1,4 +1,5 @@
 import React from 'react'
+import List from './List'
 
 const Nav = () => {
   const menulist=[
@@ -12,6 +13,14 @@ const Nav = () => {
       {menulist.map((item,index)=>
       <li key={index}>{item}</li>
       )}
+      
+      {menulist.map((menuitems,keyindex)=>
+        <List 
+        
+        key={keyindex}
+        arritems={menuitems}
+        />
+        )}
     </nav>
   )
 }

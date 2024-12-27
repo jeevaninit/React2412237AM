@@ -3,6 +3,7 @@ import Header from './Header'
 import Nav from './Nav'
 import Bodycontainer from './Bodycontainer'
 import Footer from './Footer'
+import StatesandProps from './StatesandProps'
 
 const App = () => {
   const fun=()=>{
@@ -14,10 +15,8 @@ const App = () => {
   const myclass="7am";
   return (
     <div>
-      <Header />
+      <StatesandProps />
       <Nav />
-      <Bodycontainer />
-      <Footer />
     </div>
   )
 }
