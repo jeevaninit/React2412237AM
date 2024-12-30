@@ -1,25 +1,15 @@
 import React from 'react'
-import Header from './Header'
-import Nav from './Nav'
-import Bodycontainer from './Bodycontainer'
-import Footer from './Footer'
-import StatesandProps from './StatesandProps'
+import Conditiontest from './Conditiontest'
+import Switchcondition from './Switchcondition'
+import Componentrender from './Componentrender'
 
 const App = () => {
-  const fun=()=>{
-    return(
-      <>
-      </>
-    )
-  }
-  const myclass="7am";
   return (
     <div>
-      <StatesandProps />
-      <Nav />
+     <Componentrender />
     </div>
   )
 }
 
-
 export default App
+
