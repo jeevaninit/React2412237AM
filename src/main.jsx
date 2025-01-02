@@ -3,10 +3,21 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Mycustomcomponent from './Mycustomcomponent.jsx'
+import UpdateStatevalue from './UpdateStatevalue.jsx'
+import DomManipulations from './DomManipulations.jsx'
+import DomManipulations2 from './DomManipulations2.jsx'
+import ShowandHideBanner from './ShowandHideBanner.jsx'
+import UseRef from './UseRef.jsx'
+import UseEffect from './UseEffect.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <App />
-
+{/*   <App /> */}
+{/* <UpdateStatevalue /> */}
+{/* <DomManipulations /> */}
+{/* <DomManipulations2 /> */}
+{/* <ShowandHideBanner /> */}
+{/* <UseRef /> */}
+<UseEffect />
   </StrictMode>,
 )
