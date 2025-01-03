@@ -9,6 +9,8 @@ import DomManipulations2 from './DomManipulations2.jsx'
 import ShowandHideBanner from './ShowandHideBanner.jsx'
 import UseRef from './UseRef.jsx'
 import UseEffect from './UseEffect.jsx'
+import Axios from './Axios.jsx'
+import NetFlixApp from './NetFlixApp/NetFlixApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +20,8 @@ createRoot(document.getElementById('root')).render(
 {/* <DomManipulations2 /> */}
 {/* <ShowandHideBanner /> */}
 {/* <UseRef /> */}
-<UseEffect />
+{/* <UseEffect /> */}
+{/* <Axios /> */}
+<NetFlixApp />
   </StrictMode>,
 )
