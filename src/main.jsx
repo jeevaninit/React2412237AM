@@ -11,6 +11,11 @@ import UseRef from './UseRef.jsx'
 import UseEffect from './UseEffect.jsx'
 import Axios from './Axios.jsx'
 import NetFlixApp from './NetFlixApp/NetFlixApp.jsx'
+import Boostrap from './Bootstrap/Boostrap.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ImgMediaCard from './Material/Materialcard.jsx'
+import MaterialGrid from './Material/MaterialGrid.jsx'
+import 'font-awesome/css/font-awesome.min.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +27,9 @@ createRoot(document.getElementById('root')).render(
 {/* <UseRef /> */}
 {/* <UseEffect /> */}
 {/* <Axios /> */}
-<NetFlixApp />
+{/* <NetFlixApp /> */}
+<Boostrap /> 
+{/* <ImgMediaCard /> */}
+{/* <MaterialGrid/> */}
   </StrictMode>,
 )
