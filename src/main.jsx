@@ -16,6 +16,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import ImgMediaCard from './Material/Materialcard.jsx'
 import MaterialGrid from './Material/MaterialGrid.jsx'
 import 'font-awesome/css/font-awesome.min.css';
+import Navbar from './Navigation/Navbar.jsx'
+import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -28,8 +30,11 @@ createRoot(document.getElementById('root')).render(
 {/* <UseEffect /> */}
 {/* <Axios /> */}
 {/* <NetFlixApp /> */}
-<Boostrap /> 
+{/* <Boostrap />  */}
 {/* <ImgMediaCard /> */}
 {/* <MaterialGrid/> */}
+<BrowserRouter>
+<Navbar />
+</BrowserRouter>
   </StrictMode>,
 )

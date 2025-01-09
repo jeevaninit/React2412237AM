@@ -80,9 +80,11 @@ nav {
   align-items: center;
   justify-content: space-evenly;
 }
-nav li {
+nav li,div {
   color: white;
+  cursor: pointer;
 }
+
 article {
   width: 100%;
   height: 600px;
