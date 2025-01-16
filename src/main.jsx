@@ -17,24 +17,15 @@ import ImgMediaCard from './Material/Materialcard.jsx'
 import MaterialGrid from './Material/MaterialGrid.jsx'
 import 'font-awesome/css/font-awesome.min.css';
 import Navbar from './Navigation/Navbar.jsx'
+
+import Usecallbackhook from './Usecallbackhook.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-{/*   <App /> */}
-{/* <UpdateStatevalue /> */}
-{/* <DomManipulations /> */}
-{/* <DomManipulations2 /> */}
-{/* <ShowandHideBanner /> */}
-{/* <UseRef /> */}
-{/* <UseEffect /> */}
-{/* <Axios /> */}
-{/* <NetFlixApp /> */}
-{/* <Boostrap />  */}
-{/* <ImgMediaCard /> */}
-{/* <MaterialGrid/> */}
-<BrowserRouter>
-<Navbar />
-</BrowserRouter>
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>
+
   </StrictMode>,
 )
