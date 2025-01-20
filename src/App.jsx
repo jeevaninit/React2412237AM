@@ -10,11 +10,13 @@ import Displayarea from './Displayarea'
 import Usecallbackhook from './Usecallbackhook'
 import Usememohook from './Usememohook'
 import Usecontexthook from './Usecontexthook'
+import ContextAPI from './Navigation/ContextAPI'
 
 const App = () => {
   return (
     <div>
-      <Usecontexthook />
+      <ContextAPI />
+      {/* <Usecontexthook /> */}
   
 {/* <Usememohook />
   <Usecallbackhook /> */}
