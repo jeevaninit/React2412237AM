@@ -20,11 +20,21 @@ import Navbar from './Navigation/Navbar.jsx'
 
 import Usecallbackhook from './Usecallbackhook.jsx'
 import { BrowserRouter } from 'react-router-dom'
+import { Provider } from 'react-redux'
+import store from './store.jsx';
+
+import UserRoot from './minproject/UserRoot.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    
+    <UserRoot />
+    
     <BrowserRouter>
-    <App />
+    <Provider store={store}>
+
+{/*     <App /> */}
+    </Provider>
     </BrowserRouter>
 
   </StrictMode>,
